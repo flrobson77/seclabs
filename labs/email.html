@@ -3,16 +3,34 @@
 <head>
 	<meta charset="utf-8">
 	<title>	securitylabs - Correio Eletrônico </title>
-	<link rel="stylesheet" type="text/css" href="css/estilos.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/cssseclabs.css"/>
 </head>
 <body>
 <div id="interface">
-	<figure class="foto-legenda">
-		<img src="imagens/postfix.jpg"/>
-		<figcaption>
-		Fonte:Google_fotos
-		</figcaption>
+	<header id="cabecalho">
+	<figure id="logo">
+	<img id="logo" src="../imagens/logoseclabs200.jpg"/>
+	<figcaption>
+		O melhor ataque é a defesa.
+	</figcaption>
 	</figure>
+	<nav id="menu">
+	<h1>Menu Principal</h1>
+	<ul type="disc">
+		<li><a href="index.html">Home</a></li>
+		<li><a href="labs.html">Laboratórios</a></li>
+	</ul>
+	</nav>
+	<h3>Laboratório</h3>
+	</header>
+	
+<figure class="foto-legenda">
+	<img src="../imagens/postfix.jpg"/>
+	<figcaption>
+	Fonte:Google_fotos
+	</figcaption>
+</figure>
+
 <H1> Servidor de Correio Eletrônico </H1>
 	
 <h2>1. Apresentação</h2>
@@ -32,14 +50,14 @@ O POSTFIX possui algumas caracteristicas, elas são:
 <li> Sistema Multitarefa - Seus módulos desempenham um papel específico em cada etapa do tráfego das mensagens, permitindo um desempenho melhor em sistemas multiprocessados;</li>
 <li> Separação de Privilégios - O POSTIFIX pode ser criado em ambientes CHROOT que restrige o acesso a arquivos internos numa espécie de "jaula"</li>
 <li> Modular - É possível criar módulos para trabalharem juntos com POSTFIX, facilitando a expansão;</li>
-<li> Compatibilidade - O POSTFIX possui compatibilidade com os mais diversos formatos de armazenamento de mensagens.</li>
+<li> Compatibilidade - O POSTFIX possui compatibilidade com os mais diversos formatos de armazenamento de mensagens.</li></ul>
 <p> Os arquivos de configuração do POSTFIX, são encontrados no diretório /etc/postfix, onde os seus principais arquivos são:</p>
 <ul>
 <li>main.cf - Arquivo Principal </li>
 <li>master.cf - Arquivo de Controle </li>
+</ul>
 
 <p> Em seguida, apresentamos os procedimentos para instalação e as instruções para validação do serviço </p>
-
 
 <h2> 2. Procedimentos </h2>
 

@@ -1,4 +1,4 @@
-@charset "UTF-8";
+@charset "UTF-8";
 
 body{
 	background-color: #ff0f0f;
@@ -21,7 +21,7 @@ header#cabeçalho img#logo {
 
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
-	height: 220px;
+	height: 250px;
 }
 
 header#cabecalho h3 {
@@ -132,7 +132,7 @@ fieldset#comandos {
 	background-color: #f0f0f0;
 	box-shadow: 5px 5px 5px grey;
 	margin: 10px;
-	width: 800px;
+	width: 400px;
 	padding: 0px;
 }
 
@@ -162,7 +162,7 @@ fieldset#configuracao {
 	box-shadow: 5px 5px 5px yellow;
 	margin: 10px;
 	padding: 5px;
-	width: 800px;
+	width: 400px;
 	font-size: 15pt;
 	font-family: verdana;
 }
