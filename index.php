@@ -1,7 +1,6 @@
 <?php
-
 # Cabecalho
-include 'header.php';
+include 'header.html';
 
 # Conteudo da página
 $pagina = $_GET['pagina'];
