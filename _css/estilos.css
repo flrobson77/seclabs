@@ -1,7 +1,11 @@
 @charset "UTF-8";
+* {
+	margin:0;
+	padding: 0;
+}
 
 body{
-	background-color: #ff0f0f;
+	background-color: #fff;
 	color: rgba(0,0,0,1);	
 }
 
@@ -21,7 +25,7 @@ header#cabeçalho img#logo {
 
 header#cabecalho {
 	border-bottom: 1px #606060 solid;
-	height: 250px;
+	height: 200px;
 }
 
 header#cabecalho h3 {

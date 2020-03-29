@@ -17,29 +17,26 @@
 </head>
 
 <body>
-<div id="interface">
-	<header id="cabecalho">
+<header id="cabecalho">
 	<figure id="logo">
-	<img id="logo" src="imagens/logoseclabs200.jpg"/>
-	<figcaption>
-		O melhor ataque é a defesa.
-	</figcaption>
+		<img id="logo" src="imagens/logoseclabs200.jpg"/>
+			<figcaption>
+				O melhor ataque é a defesa.
+			</figcaption>
 	</figure>
-	<nav id="menu">
+<nav id="menu">
 	<h1>Menu Principal</h1>
 	<ul type="disc">
 	<li><a href="index.html">Home</a></li>
 	<li><a href="labs.html">Laboratórios</a></li>
 	<li><a href="artigos.html">Artigos</a></li>
-	<li><a href="artigos.html">Videos</a></li>
+	<li><a href="videos.html">Videos</a></li>
 	<li><a href="quemsomos.html">Sobre</a></li>
 	</ul>
-	</nav>
-	<h3>Home</h3>
-	<br/>
-	</header>
+</nav>
+</header>
 
-<section id "principal">
+<section id "conteudo">
 
 <h1> Security Labs </h1>
 
@@ -77,20 +74,20 @@ Atualmente a cultura Devops faz surgir novos desafios que é a união de todos o
 O objetivo do SecurityLabs é criar laboratórios, testes de configuração, divulgação de boas práticas de Segurança da Informação com o objetivo de aumentar a proteção frentes as mais diversas ameaças (malwares, ataques DDoS, Varredura, Uso de Scanner's, etc.), com isso diminuindo risco da vulnerabilidade.
 </p>
 <p>
-<ul>
-<li> Garantia dos principios da Segurança da Informação; </li>
-<li> Compartilhar conhecimento; </li>
-<li> Serviços de rede; </li>
-<li> Infraestrutura àgil; </li>
-<li> Computação em Nuvem; </li>
-<li> Sistemas operacionais livres; </li>
-<li> Boas práticas de segurança para servidores;</li>
-<li> Técnicas de hardening. </li>
-</ul>
+	<ul>
+		<li> Garantia dos principios da Segurança da Informação; </li>
+		<li> Compartilhar conhecimento; </li>
+		<li> Serviços de rede; </li>
+		<li> Infraestrutura àgil; </li>
+		<li> Computação em Nuvem; </li>
+		<li> Sistemas operacionais livres; </li>
+		<li> Boas práticas de segurança para servidores;</li>
+		<li> Técnicas de hardening. </li>
+	</ul>
 </p>
-<p>
-Security Labs, onde o melhor ataque é a defesa.
-</p>
+	<p>
+		Security Labs, onde o melhor ataque é a defesa.
+	</p>
 </section>
 <br/>	
 <footer id="rodape">
@@ -99,6 +96,5 @@ Security Labs, onde o melhor ataque é a defesa.
 	<a href="http://www.twitter.com" target="_blank"><img src="imagens/twrlogo.jpg"/></a>
 	</p>		
 </footer>
-</div>
 </body>
 </html>
